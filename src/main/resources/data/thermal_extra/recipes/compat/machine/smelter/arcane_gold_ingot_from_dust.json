@@ -1,0 +1,21 @@
+{
+  "type": "thermal:smelter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wizards_reborn"
+    }
+  ],
+  "energy": 4000,
+  "ingredients": [
+    {
+      "count": 1,
+      "tag": "forge:dusts/arcane_gold"
+    }
+  ],
+  "result": [
+    {
+      "item": "wizards_reborn:arcane_gold_ingot"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thermal_extra:ancient_dust"
+    },
+    {
+      "item": "thermal_extra:ancient_dust"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    },
+    {
+      "tag": "forge:dusts/ender_pearl"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "thermal_extra:dragonsteel_dust"
+  }
+}

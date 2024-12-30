@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thermal_extra:dragonsteel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "thermal_extra:dragonsteel_ingot"
+  }
+}

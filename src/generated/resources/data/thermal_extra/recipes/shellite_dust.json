@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "tag": "forge:dusts/lead"
+    },
+    {
+      "tag": "forge:dusts/nickel"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "thermal_extra:shellite_dust"
+  }
+}

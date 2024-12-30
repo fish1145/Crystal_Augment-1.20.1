@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": {
+      "tag": "forge:gears/enderium"
+    },
+    "H": {
+      "tag": "thermal:glass/hardened"
+    },
+    "I": {
+      "item": "thermal_extra:polyolefin_plate"
+    },
+    "M": {
+      "item": "thermal:machine_frame"
+    },
+    "R": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    " I ",
+    "HMH",
+    "GRG"
+  ],
+  "result": {
+    "item": "thermal_extra:component_assembly"
+  },
+  "show_notification": true
+}

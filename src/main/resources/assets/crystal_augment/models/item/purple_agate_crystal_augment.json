@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crystal_augment:item/augment/purple_agate_crystal_augment",
+    "layer1": "crystal_augment:item/augment/upgrade_augment_lights",
+    "layer2": "crystal_augment:item/augment/upgrade_augment_anim"
+  }
+}

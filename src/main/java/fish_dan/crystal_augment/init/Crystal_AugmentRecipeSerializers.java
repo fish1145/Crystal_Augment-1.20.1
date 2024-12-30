@@ -1,0 +1,25 @@
+package fish_dan.crystal_augment.init;
+
+import cofh.lib.util.DeferredRegisterCoFH;
+import cofh.thermal.lib.util.recipes.DynamoFuelSerializer;
+import cofh.thermal.lib.util.recipes.MachineCatalystSerializer;
+import cofh.thermal.lib.util.recipes.MachineRecipeSerializer;
+import fish_dan.crystal_augment.Crystal_Augment;
+import fish_dan.crystal_augment.recipe.*;
+import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class Crystal_AugmentRecipeSerializers {
+
+    public static final DeferredRegisterCoFH<RecipeSerializer<?>> RECIPE_SERIALIZERS = DeferredRegisterCoFH.create(ForgeRegistries.RECIPE_SERIALIZERS, Crystal_Augment.MOD_ID);
+
+    public static final RegistryObject<DynamoFuelSerializer<ColdFuel>> COLD_FUEL_SERIALIZER = RECIPE_SERIALIZERS.register("cold_fuel", () -> new DynamoFuelSerializer<>(ColdFuel::new, ColdFuelManager.instance().getDefaultEnergy(), ColdFuelManager.MIN_ENERGY, ColdFuelManager.MAX_ENERGY));
+    public static final RegistryObject<MachineRecipeSerializer<AdvancedRefineryRecipe>> ADVANCED_REFINERY_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("advanced_refinery", () -> new MachineRecipeSerializer<>(AdvancedRefineryRecipe::new, AdvancedRefineryRecipeManager.instance().getDefaultEnergy()));
+    public static final RegistryObject<MachineRecipeSerializer<FluidMixerRecipe>> FLUID_MIXER_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("fluid_mixer", () -> new MachineRecipeSerializer<>(FluidMixerRecipe::new, FluidMixerRecipeManager.instance().getDefaultEnergy()));
+    public static final RegistryObject<MachineRecipeSerializer<NitraticIgniterRecipe>> NITRATIC_IGNITER_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("nitratic_igniter", () -> new MachineRecipeSerializer<>(NitraticIgniterRecipe::new, NitraticIgniterRecipeManager.instance().getDefaultEnergy()));
+    public static final RegistryObject<MachineCatalystSerializer<NitraticIgniterCatalyst>> NITRATIC_IGNITER_CATALYST_SERIALIZER = RECIPE_SERIALIZERS.register("nitratic_igniter_catalyst", () -> new MachineCatalystSerializer<>(NitraticIgniterCatalyst::new));
+    public static final RegistryObject<MachineRecipeSerializer<ComponentAssemblyRecipe>> COMPONENT_ASSEMBLY_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("component_assembly", () -> new MachineRecipeSerializer<>(ComponentAssemblyRecipe::new, ComponentAssemblyRecipeManager.instance().getDefaultEnergy()));
+    public static final RegistryObject<MachineRecipeSerializer<EndothermicDehydratorRecipe>> ENDOTHERMIC_DEHYDRATOR_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("endothermic_dehydrator", () -> new MachineRecipeSerializer<>(EndothermicDehydratorRecipe::new, EndothermicDehydratorRecipeManager.instance().getDefaultEnergy()));
+
+}

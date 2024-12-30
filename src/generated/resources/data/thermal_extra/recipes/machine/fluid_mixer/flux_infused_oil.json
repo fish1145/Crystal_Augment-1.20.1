@@ -1,0 +1,20 @@
+{
+  "type": "thermal_extra:fluid_mixer",
+  "energy": 10000,
+  "ingredients": [
+    {
+      "amount": 100,
+      "fluid": "thermal:redstone"
+    },
+    {
+      "amount": 100,
+      "fluid_tag": "forge:crude_oil"
+    }
+  ],
+  "result": [
+    {
+      "amount": 100,
+      "fluid": "thermal_extra:flux_infused_oil"
+    }
+  ]
+}

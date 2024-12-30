@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/tin"
+    },
+    {
+      "tag": "forge:dusts/tin"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "tag": "forge:dusts/obsidian"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "thermal_extra:twinite_dust"
+  }
+}

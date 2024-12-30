@@ -1,0 +1,56 @@
+{
+  "creative_tab.crystal_augment.item_block": "晶体组件:物品|方块",
+  "creative_tab.crystal_augment.augments": "晶体组件:组件|升级",
+
+
+  "item.crystal_augment.jade_rf_coil": "翡翠通量线圈",
+  "item.crystal_augment.tourmaline_rf_coil": "紫碧玺通量线圈",
+  "item.crystal_augment.kunzite_rf_coil": "紫锂辉通量线圈",
+  "item.crystal_augment.sodalite_rf_coil": "方钠通量线圈",
+  "item.crystal_augment.morgan_rf_coil": "摩根通量线圈",
+
+  "item.crystal_augment.jade_crystal": "翡翠晶体",
+  "item.crystal_augment.tourmaline_crystal": "紫碧玺晶体",
+  "item.crystal_augment.kunzite_crystal": "紫锂辉晶体",
+  "item.crystal_augment.sodalite_crystal": "方钠晶体",
+  "item.crystal_augment.morgan_crystal": "摩根晶体",
+  "item.crystal_augment.indigo_crystal": "靛蓝晶体",
+  "item.crystal_augment.purple_agate_crystal": "紫玛瑙晶体",
+  "item.crystal_augment.abyss_crystal": "深渊晶体",
+  "item.crystal_augment.sky_blue_crystal": "天蓝晶体",
+  "item.crystal_augment.amber_crystal": "琥珀晶体",
+
+  "item.crystal_augment.jade_dust": "翡翠粉尘",
+  "item.crystal_augment.tourmaline_dust": "紫碧玺粉尘",
+  "item.crystal_augment.kunzite_dust": "紫锂辉粉尘",
+  "item.crystal_augment.sodalite_dust": "方钠粉尘",
+  "item.crystal_augment.morgan_dust": "摩根粉尘",
+  "item.crystal_augment.indigo_dust": "靛蓝粉尘",
+  "item.crystal_augment.purple_agate_dust": "紫玛瑙粉尘",
+  "item.crystal_augment.abyss_dust": "深渊粉尘",
+  "item.crystal_augment.sky_blue_dust": "天蓝粉尘",
+  "item.crystal_augment.amber_dust": "琥珀粉尘",
+
+
+  "crystal_augment.augment.upgrade": "提升基础属性,其他升级也可能由此得到进一步增强。",
+
+  "item.crystal_augment.indigo_crystal_augment": "靛蓝晶体组件",
+  "item.crystal_augment.purple_agate_crystal_augment": "紫玛瑙晶体组件",
+  "item.crystal_augment.abyss_crystal_augment": "深渊晶体组件",
+  "item.crystal_augment.sky_blue_crystal_augment": "天蓝晶体组件",
+  "item.crystal_augment.amber_crystal_augment": "琥珀晶体组件",
+
+  "item.crystal_augment.jade_item_filter_augment": "翡翠物品过滤名单",
+
+
+  "block.crystal_augment.jade_glass": "翡翠玻璃",
+  "block.crystal_augment.tourmaline_glass": "紫碧玺玻璃",
+  "block.crystal_augment.kunzite_glass": "紫锂辉玻璃",
+  "block.crystal_augment.sodalite_glass": "方钠玻璃",
+  "block.crystal_augment.morgan_glass": "摩根玻璃",
+  "block.crystal_augment.indigo_glass": "靛蓝玻璃",
+  "block.crystal_augment.purple_agate_glass": "紫玛瑙玻璃",
+  "block.crystal_augment.abyss_glass": "深渊玻璃",
+  "block.crystal_augment.sky_blue_glass": "天蓝玻璃",
+  "block.crystal_augment.amber_glass": "琥珀玻璃"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "thermal_extra:endothermic_dehydrator",
+  "energy": 4000,
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "minecraft:cooked_mutton"
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal_extra:mutton_jerky"
+    }
+  ]
+}
